@@ -1,0 +1,11 @@
+body {
+    background-image: url('../images/login.png');
+    background-color: #81f1ff;
+    background-position: top center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

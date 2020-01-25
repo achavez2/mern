@@ -1,0 +1,55 @@
+.Card {
+    margin-bottom: 1em;
+    border-radius: 35px;
+    padding: 10px;
+    background: rgb(242, 244, 249);
+    width: 360px;
+    height: 360px;
+    box-shadow: -2px 2px 8px 2px rgb(120, 153, 155);
+}
+
+.CardTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardTitle > h3 {
+    color: rgb(169, 223, 226);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.CardBody {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.CardBody > div > p {
+    color: rgb(92, 104, 152);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.CardBody > div > input {
+    background: rgb(242, 244, 249);
+    width: max-content;
+}
+
+.CardFooter {
+    padding-top: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardFooter > button {
+    border-radius: 35px;
+    padding: 10px;
+    height: 65px;
+    width: 170px;
+    background: rgb(169, 223, 226);
+    color: #FFF;
+    font-weight: bold;
+    font-size: 22px;
+}
