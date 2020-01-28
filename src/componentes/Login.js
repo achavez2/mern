@@ -5,7 +5,7 @@ import LoginBox from './LoginBox'
 class Login extends React.Component {
     render () {
         return (
-            <div className={styles}>
+            <div className={styles.BackgroundLogin}>
                 <LoginBox/>
             </div>
         )

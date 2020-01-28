@@ -1,14 +1,15 @@
 .Card {
     margin-bottom: 1em;
     border-radius: 35px;
-    padding: 10px;
+    padding: 20px;
     background: rgb(242, 244, 249);
     width: 360px;
     height: 360px;
-    box-shadow: -2px 2px 8px 2px rgb(120, 153, 155);
+    box-shadow: -3px 3px 7px 5px rgba(0, 0, 0, 0.17);
 }
 
 .CardTitle {
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,9 +19,11 @@
     color: rgb(169, 223, 226);
     font-weight: bold;
     font-size: 25px;
+    font-family: monospace;
 }
 
 .CardBody {
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -29,27 +32,36 @@
     color: rgb(92, 104, 152);
     font-weight: bold;
     font-size: 18px;
+    font-family: monospace;
 }
 
 .CardBody > div > input {
     background: rgb(242, 244, 249);
-    width: max-content;
+
+    height: 25px;
+    text-align: center;
 }
 
 .CardFooter {
-    padding-top: 62px;
+    padding-top: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.CardFooter > button {
-    border-radius: 35px;
+.CardFooter > .BtnLogin {
+    border-radius: 40px;
     padding: 10px;
-    height: 65px;
-    width: 170px;
+    height: 40px;
+    width: 150px;
     background: rgb(169, 223, 226);
     color: #FFF;
+    font-family: monospace;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 23px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -2px 2px 5px 2px rgba(0, 0, 0, 0.17);
 }

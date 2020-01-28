@@ -1,0 +1,8 @@
+.Base {
+    position:absolute; 
+    top:0; 
+    left:200px;
+    
+    height: 650px;
+    width: 1000px;
+}

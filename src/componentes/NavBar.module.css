@@ -1,0 +1,13 @@
+.MenuBar{
+    background-color: rgb(92, 104, 152);
+    position: relative;
+    width: 200px;
+    height: 650px;
+}
+
+.MenuBar > NavLink {
+    background-color: orangered;
+    position: relative;
+    width: 200px;
+    height: 650px;
+}

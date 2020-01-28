@@ -1,5 +1,13 @@
 import React from 'react';
 import styles from './LoginBox.module.css'
+import {Link} from 'react-router-dom'
+
+const user = 
+    {
+        name: 'DR. RAMIREZ',
+        id: 1
+    }
+
 
 class LoginBox extends React.Component {
     render () {
@@ -20,7 +28,17 @@ class LoginBox extends React.Component {
                     </div>
                 </div>
                 <div className={styles.CardFooter}>
-                    <button type="submit">ENTRAR</button>
+                    <Link 
+                        to={{
+                            pathname: '/pacientes',
+                            state: {
+                                user
+                            }
+                        }}
+                        className={styles.BtnLogin}
+                    >
+                        ENTRAR
+                    </Link>
                 </div>
             </div>
         )

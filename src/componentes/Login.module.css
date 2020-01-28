@@ -1,11 +1,14 @@
-body {
+.BackgroundLogin {
     background-image: url('../images/login.png');
     background-color: #81f1ff;
-    background-position: top center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; 
+
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: cover;
     padding-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 150px;
+    margin-bottom: 10px;
 }
